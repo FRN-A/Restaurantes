@@ -29,6 +29,18 @@ class RestaurantesController : UIViewController, UITableViewDataSource, UITableV
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+        let celda = tableView.dequeueReusableCell(withIdentifier: "CeldaRestaurante")
+        celda?.textLabel?.text = restaurantes[indexPath.row].nombre
+        return celda!
+    }
+    
+    
+
+    @IBOutlet weak var TVRestaurantes: UITableView!
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "GoToDetalleRestaurante" {
+            let destino = segue.destination as? DetalleRestauranteController
+            destino?.restaurante = restaurantes[TVRestaurantes.indexPathForSelectedRow!.row]
+        }
     }
 }

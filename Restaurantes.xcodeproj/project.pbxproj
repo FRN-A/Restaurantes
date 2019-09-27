@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D8DE04D233EAA7C0034A504 /* DetalleRestauranteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DE04C233EAA7C0034A504 /* DetalleRestauranteController.swift */; };
 		3D9B881A233C0EFA0043C1E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9B8819233C0EFA0043C1E6 /* AppDelegate.swift */; };
 		3D9B881C233C0EFA0043C1E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9B881B233C0EFA0043C1E6 /* ViewController.swift */; };
 		3D9B881F233C0EFA0043C1E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9B881D233C0EFA0043C1E6 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D8DE04C233EAA7C0034A504 /* DetalleRestauranteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRestauranteController.swift; sourceTree = "<group>"; };
 		3D9B8816233C0EFA0043C1E6 /* Restaurantes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurantes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9B8819233C0EFA0043C1E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D9B881B233C0EFA0043C1E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				3D9B8825233C0EFC0043C1E6 /* Info.plist */,
 				3D9B8847233C12E50043C1E6 /* Restaurante.swift */,
 				3D9B8849233C14390043C1E6 /* RestaurantesController.swift */,
+				3D8DE04C233EAA7C0034A504 /* DetalleRestauranteController.swift */,
 			);
 			path = Restaurantes;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9B884A233C14390043C1E6 /* RestaurantesController.swift in Sources */,
+				3D8DE04D233EAA7C0034A504 /* DetalleRestauranteController.swift in Sources */,
 				3D9B881C233C0EFA0043C1E6 /* ViewController.swift in Sources */,
 				3D9B881A233C0EFA0043C1E6 /* AppDelegate.swift in Sources */,
 				3D9B8848233C12E50043C1E6 /* Restaurante.swift in Sources */,
